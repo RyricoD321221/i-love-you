@@ -93,4 +93,29 @@ font-family: "Roboto" sans-serif;
 font-style: normal;
 width: 80%;
 margin: 0 auto;
+margin-bottom: 30px;
+}
+
+.button-arrow {
+background-color: blueviolet;
+color: aliceblue;
+border-radius: 200px;
+cursor: pointer;
+margin-left: 1rem;
+margin-top: 100px;
+padding: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 80px;
+width: 226px;
+margin: 0 auto;
+}
+
+.arrow {
+position: relative;
+left: 800px;
+bottom:  57px;
+margin: 0 auto;
 }
