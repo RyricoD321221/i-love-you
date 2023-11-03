@@ -62,102 +62,6 @@ margin-left: 1rem;
 
 .container {
 padding: 5rem 10%;
-background-color: pink;
-}
-
-.tochkaAndFix {
-margin-top: 200px;
-margin-right: 55px;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-margin-bottom: 50px;
-
-
-}
-
-.tochka {
-margin: 15px;
-
-}
-
-.FixFlow {
-font-size: 15px;
-}
-.textafterpictures {
-font-size: 53px;
-text-align: center;
-font-weight: 400;
-font-family: "Roboto" sans-serif;
-font-style: normal;
-width: 80%;
-margin: 0 auto;
-}
-
-* {
-font-family: "roboto", sans-serif;
-margin: 0px;
-padding: 0px;
-}
-.button {
-background-color: blueviolet;
-color: aliceblue;
-border-radius: 5px;
-cursor: pointer;
-margin-left: 1rem;
-padding: 10px;
-
-}
-
-
-header {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-font: 17px sans-serif;
-flex-grow: 1;
-}
-
-.h1 {
-color: #000;
-text-align: center;
-font-family: "Roboto" sans-serif;
-font-size: 100px;
-font-style: normal;
-font-weight: 400;
-
-text-transform: uppercase;
-
-}
-
-.mainpictures {
-text-align: center;
-margin-top: 125px;
-
-}
-
-.tochka {
-width: 18px;
-height: 18px;
-flex-shrink: 0;
-border-radius: 200px;
-background: #000;
-}
-
-.navigation {
-display: flex;
-flex-direction: row;
-
-}
-
-.navigation>p {
-margin-left: 1rem;
-}
-
-.container {
-padding: 5rem 10%;
 background-color: white;
 }
 
@@ -189,8 +93,9 @@ font-family: "Roboto" sans-serif;
 font-style: normal;
 width: 80%;
 margin: 0 auto;
-margin-bottom: 30px;
+margin-bottom: 45px;
 }
+
 
 .button-arrow {
 background-color: blueviolet;
@@ -216,4 +121,3 @@ gap: 10px;
  justify-content: center;
  align-items: center;
 }
-
