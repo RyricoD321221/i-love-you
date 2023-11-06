@@ -1,123 +1,169 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
-font-family: "roboto", sans-serif;
-margin: 0px;
-padding: 0px;
+    font-family: "roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+
 }
+
 .button {
-background-color: blueviolet;
-color: aliceblue;
-border-radius: 5px;
-cursor: pointer;
-margin-left: 1rem;
-padding: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+    padding: 10px;
 
 }
 
 
 header {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-font: 17px sans-serif;
-flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font: 17px sans-serif;
+    flex-grow: 1;
+    margin-top: 50px;
+
 }
 
 .h1 {
-color: #000;
-text-align: center;
-font-family: "Roboto" sans-serif;
-font-size: 100px;
-font-style: normal;
-font-weight: 400;
+    color: #000;
+    text-align: center;
+    font-family: "Roboto" sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
 
-text-transform: uppercase;
+    text-transform: uppercase;
 
 }
 
 .mainpictures {
-text-align: center;
-margin-top: 125px;
+    text-align: center;
+    margin-top: 125px;
 
 }
 
 .tochka {
-width: 18px;
-height: 18px;
-flex-shrink: 0;
-border-radius: 200px;
-background: #000;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 200px;
+    background: #000;
 }
 
 .navigation {
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
 }
 
 .navigation>p {
-margin-left: 1rem;
+    margin-left: 1rem;
 }
 
 .container {
-padding: 5rem 10%;
-background-color: white;
+    background-color: white;
+
 }
 
 .tochkaAndFix {
-margin-top: 200px;
-margin-right: 55px;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-margin-bottom: 50px;
+    margin-top: 200px;
+    margin-right: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 
 
 }
 
 .tochka {
-margin: 15px;
+    margin: 15px;
 
 }
 
 .FixFlow {
-font-size: 15px;
+    font-size: 15px;
 }
+
 .textafterpictures {
-font-size: 53px;
-text-align: center;
-font-weight: 400;
-font-family: "Roboto" sans-serif;
-font-style: normal;
-width: 80%;
-margin: 0 auto;
-margin-bottom: 45px;
+    font-size: 53px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Roboto" sans-serif;
+    font-style: normal;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 45px;
 }
 
 
 .button-arrow {
-background-color: blueviolet;
-color: aliceblue;
-border-radius: 200px;
-cursor: pointer;
-margin-left: 1rem;
-margin-top: 100px;
-padding: 10px;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-height: 80px;
-width: 226px;
-margin: 0 auto;
-gap: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 200px;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 226px;
+    margin: 0 auto;
+    gap: 10px;
 }
 
 .button-and-arrow {
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 324px;
+}
+
+.low {
+    color: #000;
+    font-family: Roboto;
+    font-size: 322px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 268.8px;
+    /* 83.478% */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    right: 30px;
+}
+
+.gif1 {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+
+}
+
+.overflow-hidden {
+    overflow: hidden;
+    overscroll-behavior-block: contain;
+}
+
+.Why {
+
 }
