@@ -54,6 +54,7 @@ header {
     flex-shrink: 0;
     border-radius: 200px;
     background: #000;
+    margin: 15px;
 }
 
 .navigation {
@@ -80,11 +81,6 @@ header {
     justify-content: center;
     margin-bottom: 50px;
 
-
-}
-
-.tochka {
-    margin: 15px;
 
 }
 
@@ -155,7 +151,8 @@ header {
 .flex-row {
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    
 
 }
 
@@ -164,6 +161,40 @@ header {
     overscroll-behavior-block: contain;
 }
 
-.Why {
+.flex-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    
 
+}
+ .Why {
+    width: 314px;
+    height: 36px;
+    top: 2617px;
+    left: 58px;
+    font-family: "Roboto" sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+
+
+
+ }
+
+.AreYou {
+    width: 490px;
+    height: 415px;
+    top: 2619px;
+    left: 624px;
+    font-family: "Roboto" sans-serif;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 350px;
 }
