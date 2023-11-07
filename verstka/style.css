@@ -166,7 +166,8 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 400px;
+
     
 
 }
@@ -180,6 +181,7 @@ header {
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
+    margin-right: 600px;
 
 
 
@@ -195,6 +197,26 @@ header {
     font-weight: 400;
     line-height: 69px;
     letter-spacing: 0em;
-    text-align: left;
     margin-left: 350px;
+}
+
+.cards {
+
+}
+
+.card {
+    width: 546px;
+    height: 400px;
+
+    border-radius: 20px;
+    background: #EBF8F9;
+    margin: 80px;
+
+}
+
+.Rectangle {
+    width: 90px;
+    height: 90px;
+    background: #93F8FF;
+    margin: 60px 396px 380px 60px;
 }
