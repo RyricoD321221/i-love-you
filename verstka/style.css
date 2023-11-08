@@ -4,8 +4,7 @@
     font-family: "roboto", sans-serif;
     margin: 0px;
     padding: 0px;
-
-
+    box-sizing: border-box;
 }
 
 .button {
@@ -152,7 +151,7 @@ header {
     display: flex;
     flex-direction: row;
     margin-bottom: 150px;
-    
+
 
 }
 
@@ -168,10 +167,11 @@ header {
     align-items: center;
     margin-bottom: 400px;
 
-    
+
 
 }
- .Why {
+
+.Why {
     width: 314px;
     height: 36px;
     top: 2617px;
@@ -185,7 +185,7 @@ header {
 
 
 
- }
+}
 
 .AreYou {
     width: 490px;
@@ -197,26 +197,55 @@ header {
     font-weight: 400;
     line-height: 69px;
     letter-spacing: 0em;
-    margin-left: 350px;
+    margin-left: -210px;
 }
 
-.cards {
 
+/* block cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px;
 }
 
 .card {
     width: 546px;
-    height: 400px;
+    height: 530px;
 
+    box-sizing: border-box;
     border-radius: 20px;
-    background: #EBF8F9;
-    margin: 80px;
 
+    background: #EBF8F9;
+
+    margin: 30px;
+    padding: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Rectangle {
     width: 90px;
     height: 90px;
     background: #93F8FF;
-    margin: 60px 396px 380px 60px;
+}
+
+.treygol {
+    margin: 30px;
+}
+
+.card .disc>h4 {
+    font-size: 32px;
+
+    margin: 12px 0;
+}
+
+.card .disc>p {
+    color: rgba(0, 0, 0, 0.60);
+
+    font-size: 22px;
+    line-height: 31.36px;
+    /* 142.545% */
+
 }
