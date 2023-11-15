@@ -68,8 +68,12 @@ header {
 
 .container {
     background-color: white;
-
+    width: 1200px;
+    height: 16078px;
+    top: 4115px;
+    margin-left: 350px;
 }
+
 
 .tochkaAndFix {
     margin-top: 200px;
@@ -93,7 +97,7 @@ header {
     font-weight: 400;
     font-family: "Roboto" sans-serif;
     font-style: normal;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 45px;
 }
@@ -141,8 +145,8 @@ header {
 }
 
 .gif1 {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 30px;
+    margin-right: 80px;
     margin-top: 50px;
 }
 
@@ -165,14 +169,17 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 
 
 }
 
 .Why {
-    width: 314px;
+    width: 310px;
     height: 36px;
     top: 2617px;
     left: 58px;
@@ -181,9 +188,19 @@ header {
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
-    margin-right: 600px;
+    margin-right: 800px;
 
+}
 
+.tochkaAndWhy {
+    margin-top: 200px;
+    margin-right: 55px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 580px;
 
 }
 
@@ -197,7 +214,7 @@ header {
     font-weight: 400;
     line-height: 69px;
     letter-spacing: 0em;
-    margin-left: -210px;
+    margin-left: -580px;
 }
 
 
@@ -205,7 +222,9 @@ header {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    margin: 120px;
+    margin: 10px;
+
+
 }
 
 .card {
@@ -217,8 +236,8 @@ header {
 
     background: #EBF8F9;
 
-    margin: 30px;
-    padding: 60px;
+    margin: 20px;
+    padding: 60px;;
 
     display: flex;
     flex-direction: column;
