@@ -237,13 +237,15 @@ header {
     background: #EBF8F9;
 
     margin: 20px;
-    padding: 60px;;
+    padding: 60px;
+    ;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/*карточка2 */
 .card2 {
     width: 546px;
     height: 530px;
@@ -254,24 +256,85 @@ header {
     background-color: #E8FBED;
 
     margin: 20px;
-    padding: 60px;;
+    padding: 60px;
+    ;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}    
+}
 
+/*карточка3 */
+.card3 {
+    width: 546px;
+    height: 530px;
 
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    background-color: #F7F3FF;
+
+    margin: 20px;
+    padding: 60px;
+    ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*карточка4 */
+.card4 {
+    width: 546px;
+    height: 530px;
+
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    background-color: #FFF3E8;
+
+    margin: 20px;
+    padding: 60px;
+    ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*квадрат 1 */
 .Rectangle {
     width: 90px;
     height: 90px;
     background: #93F8FF;
 }
 
+/*квадрат 2 */
+.Rectangle2 {
+    width: 90px;
+    height: 90px;
+    background: #A3ECA1;
+}
+
+/*квадрат 3 */
+.Rectangle3 {
+    width: 90px;
+    height: 90px;
+    background: #C5AAFF;
+}
+
+/*квадрат 4 */
+.Rectangle4 {
+    width: 90px;
+    height: 90px;
+    background: #FFD3AA;
+}
+
 .treygol {
     margin: 30px;
 }
 
+/*карточка 1 */
 .card .disc>h4 {
     font-size: 32px;
 
@@ -285,4 +348,89 @@ header {
     line-height: 31.36px;
     /* 142.545% */
 
+}
+
+/*карточка 2 */
+.card2 .disc2>h4 {
+    font-size: 32px;
+
+    margin: 12px 0;
+}
+
+.card2 .disc2>p {
+    color: rgba(0, 0, 0, 0.60);
+
+    margin-bottom: 28px;
+
+    font-size: 22px;
+    line-height: 31.36px;
+    /* 142.545% */
+
+}
+
+/*карточка 3 */
+.card3 .disc>h4 {
+    font-size: 32px;
+
+    margin: 12px 0;
+}
+
+.card3 .disc>p {
+    color: rgba(0, 0, 0, 0.60);
+
+    font-size: 22px;
+    line-height: 31.36px;
+    /* 142.545% */
+
+}
+
+/*карточка 4  */
+.card4 .disc4>h4 {
+    font-size: 32px;
+
+    margin: 12px 0;
+}
+
+.card4 .disc4>p {
+    color: rgba(0, 0, 0, 0.60);
+
+    margin-bottom: 30px;
+
+    font-size: 22px;
+    line-height: 31.36px;
+    /* 142.545% */
+
+}
+
+
+.black {
+    height: 1200px;
+    margin-top: 100px;
+
+    background-color: #181818;
+}
+
+.tochkaAndHow {
+   padding-top: 50px;
+    margin-bottom: 35px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.tochkaWhite {
+    width: 18px;
+    height: 18px;
+    margin: 15px;
+
+    flex-shrink: 0;
+
+    border-radius: 200px;
+
+    background: white;
+    
 }
