@@ -244,6 +244,24 @@ header {
     justify-content: space-between;
 }
 
+.card2 {
+    width: 546px;
+    height: 530px;
+
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    background-color: #E8FBED;
+
+    margin: 20px;
+    padding: 60px;;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}    
+
+
 .Rectangle {
     width: 90px;
     height: 90px;
