@@ -361,14 +361,14 @@ header {
 
 
 .black {
-    height: 5600px;
+    height: 8000px;
     margin-top: 100px;
 
     background-color: #181818;
 }
 
 .tochkaAndHow {
-   padding-top: 50px;
+    padding-top: 50px;
     margin-bottom: 35px;
 
     font-family: "Roboto" sans-serif;
@@ -392,14 +392,14 @@ header {
     border-radius: 200px;
 
     background: white;
-    
+
 }
 
 .EvenIf {
-   
+
     font-family: "Robot" sans-serif;
     font-size: 81px;
-    margin: 0 auto; 
+    margin: 0 auto;
     text-align: center;
     color: white;
 }
@@ -445,14 +445,122 @@ header {
     height: 492px;
 
     margin: 0 30px 81px 30px;
-    
+    margin-bottom: 213px;
+    ;
+
+
+
 }
 
 .Number {
-    padding: 84px 959px 296px 133px;
+    padding: 84px 0px 0px 125px;
 
     font-size: 140px;
 
     color: white;
 }
 
+.Get {
+    color: #FFF;
+
+    font-family: 'Roboto' sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 43.68px;
+
+    padding: 0px 0px 337px 275px;
+}
+
+.ed {
+    color: #FFF;
+    font-family: 'Roboto' sans-serif;
+    font-size: 327px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 268.8px;
+    /* 82.202% */
+    margin: 0 auto;
+    position: relative;
+    right: 30px;
+
+
+}
+
+.tel {
+    color: #FFF;
+    font-family: 'Roboto' sans-serif;
+    font-size: 310px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 268.8px;
+    /* 86.71% */
+
+}
+
+.RunTxt {
+    display: flex;
+    flex-direction: row;
+    justify-content: row;
+    margin-bottom: 100px;
+}
+
+.white {
+    color: white;
+}
+
+.marginafterGet {
+    margin-bottom: 406px;
+}
+
+.why1 {
+    margin-left: 15px;
+}
+
+.selects {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 427px;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    margin-right: 110px;
+    width: 495;
+    height: 20;
+}
+
+.name {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.sell {
+    color: #9E9E9E;
+    text-align: center;
+    font-family: 'roboto' sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 378px;
+    /* 100% */
+}
+
+.right {
+    position: relative;
+    left: -50px;
+}
+
+.select1 {
+    margin-bottom: 200px;
+}
