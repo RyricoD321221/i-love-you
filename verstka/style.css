@@ -361,7 +361,7 @@ header {
 
 
 .black {
-    height: 8000px;
+    height: 5900px;
     margin-top: 100px;
 
     background-color: #181818;
@@ -445,19 +445,56 @@ header {
     height: 492px;
 
     margin: 0 30px 81px 30px;
-    margin-bottom: 213px;
-    ;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.bot {
+    margin-bottom: 11px;
+}
 
+.letus {
+    color: white;
+}
 
+.if {
+    color: #757575;
+    font-family: 'Roboto' sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.68px;
+    /* 128.471% */
+}
+
+.selected {
+    color: #D4D4D4;
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.68px;
+    /* 128.471% */
+}
+
+.selectAndOr {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .Number {
-    padding: 84px 0px 0px 125px;
-
+    display: flex;
     font-size: 140px;
 
     color: white;
+
+    margin-left: 133px;
+    margin-bottom: 200px;
+    margin-right: 93px;
 }
 
 .Get {
@@ -469,8 +506,6 @@ header {
     font-weight: 400;
 
     line-height: 43.68px;
-
-    padding: 0px 0px 337px 275px;
 }
 
 .ed {
@@ -563,4 +598,93 @@ header {
 
 .select1 {
     margin-bottom: 200px;
+}
+
+.artics {
+    margin-left: 100px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 112px;
+}
+
+.artic {
+    width: 910px;
+    height: 890px;
+
+    border-radius: 36px;
+    background: #E8FBED;
+    margin-bottom: 31px;
+    box-sizing: border-box;
+}
+
+.purple {
+    background: #F7F3FF;
+}
+
+.tell {
+    margin-bottom: 1200rem;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.Pricing {
+    color: #000;
+    font-family: 'Roboto' sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.Starter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 109px;
+    padding-top: 81px;
+    margin-bottom: 48px;
+}
+
+.St {
+    color: #000;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.8px;
+    margin-bottom: 15px;
+    /* 106.909% */
+}
+
+.galochka-txt {
+    display: flex;
+    flex-direction: row;
+}
+
+.takeus {
+    margin-left: 109px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.galochka-txt>p {
+    margin-left: 10px;
+    color: #000;
+    font-family: 'Roboto' sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.36px;
+    margin-bottom: 15px;
+    margin-right: 121px;
+    /* 149.333% */
+}
+
+.galochka {
+    position: relative;
+    top: 7px;
 }
