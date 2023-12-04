@@ -667,7 +667,7 @@ header {
 .takeus {
     margin-left: 109px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     width: 800px;
 }
 
@@ -687,4 +687,48 @@ header {
 .galochka {
     position: relative;
     top: 7px;
+}
+
+.oneColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    margin-left: 109px;
+    margin-top: 74px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.priceone {
+    color: #000;
+    font-family: 'Roboto' sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.8px;
+    margin-bottom: 15px;
+    /* 105% */
+}
+
+.StartsAt {
+    color: #333;
+    font-family: 'Roboto' sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 153.846% */
+}
+
+.buyGetStarted {
+    margin-left: 287px;
+    margin-top: 20px;
+    border-radius: 200px;
+    background: #8247FF;
+    width: 226px;
+    height: 80px;
+    flex-shrink: 0;
 }
