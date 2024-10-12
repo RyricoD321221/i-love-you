@@ -1,0 +1,22 @@
+import math
+#a = int(input('Enter the first number: '))
+#b = int(input('Enter the second number: '))
+
+#avg = (a + b) / 2
+#print("average = ",avg)
+
+#x = int(input("Enter a number: "))
+#y = (x ** 3) / 2 * (x + 5)
+#print("The result is x and y", x,y)
+
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+
+D = b**2 - 4*a*c
+
+if (D > 0):
+    X1 = (-b + D**0.5)/2*a
+    X2 = (-b - D**0.5)/2*a
+
+print("The solutions are:", X1, X2)
